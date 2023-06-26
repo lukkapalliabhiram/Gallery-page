@@ -1,0 +1,68 @@
+body{
+	margin: 0px;
+	background-image: url("..images/background.gif");
+	background-color: black;
+   
+}
+
+.scrool {
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  height: 210px;
+  width: 800px;
+  margin-left: 20%;
+  margin-top: 3%;
+  border: 3px solid black;
+  
+}
+
+.heading{
+	text-align: center;
+	color: pink;
+	text-shadow: 3px 3px 4px black, 0 0 30px yellow, 0 0 10px yellow;
+}
+.scrool img {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  
+  text-decoration: none;
+
+}
+
+.scroll img:hover {
+  background-color: #777;
+}
+
+#image1,#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9,#image10{
+	height: 200px;
+	width: 300px;
+	background-size: cover;
+}
+
+
+.container{
+	float: left;
+	height: 500px;
+	width: 600px;
+	border: 5px solid black;
+	margin-left: 27%;
+}
+
+
+
+
+
+
+@media (min-width: 250px) and (max-width: 480px){
+	body{
+		background-color: pink;
+	}
+	
+
+	.scrool{
+		height: 100px;
+		width: 100%;
+	}
+	}
